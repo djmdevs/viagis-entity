@@ -6,7 +6,8 @@ public abstract class Criterio extends BaseObject{//<T extends Serializable> ext
 	
 	protected Double value;
 	
-	public Double getValue() {
+	protected Double getValue() {
+
 		return value;
 	}
 	

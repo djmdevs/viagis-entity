@@ -21,9 +21,5 @@ public class IntervencaoType extends BaseObject {
 	public String getTipo(){
 		return this.getDescription();
 	}
-	
-	
-	
-	
-	
+		
 }
