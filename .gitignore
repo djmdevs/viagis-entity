@@ -1,4 +1,7 @@
 /.gradle/
 /bin/
 /classes/
+build/libs/*
 /build/*
+gradlew
+/.settings/
