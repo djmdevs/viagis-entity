@@ -9,13 +9,16 @@ public class SeguimentoVia extends BaseObject{
 	private Double comprimentoValue;
 	
 	private Double icpValue;
+		
+	private IntervencaoType intervencaoTypeObject;
 	
 	//nome da via sera igual a descricao existente na entidade generica
 	//private String nome
+	//private Point pointObject; //coordenadas x e y
 	
-	private IntervencaoType intervencaoTypeObject;
+	private String longitude;
 	
-	private Point pointObject;
+	private String latitude;
 
 	public Double getLarguraValue() {
 		return larguraValue;
@@ -49,13 +52,22 @@ public class SeguimentoVia extends BaseObject{
 		this.intervencaoTypeObject = intervencaoTypeObject;
 	}
 
-	public Point getPointObject() {
-		return pointObject;
+	public String getLongitudeValue() {
+		return longitude;
 	}
 
-	public void setPointObject(Point pointObject) {
-		this.pointObject = pointObject;
+	public void setLongitude(String longitude) {
+		this.longitude = longitude;
 	}
-	
+
+	public String getLatitudeValue() {
+		return latitude;
+	}
+
+	public void setLatitude(String latitude) {
+		this.latitude = latitude;
+	}
+
+		
 	
 }

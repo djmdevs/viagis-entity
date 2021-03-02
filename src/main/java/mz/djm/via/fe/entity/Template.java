@@ -8,4 +8,8 @@ package mz.djm.via.fe.entity;
 
 public class Template extends BaseObject {
 
+	private SeguimentoVia seguimentoObject;
+	private double area;
+	
+	
 }

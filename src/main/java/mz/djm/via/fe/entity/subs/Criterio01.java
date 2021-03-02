@@ -1,19 +1,25 @@
 package mz.djm.via.fe.entity.subs;
 
 import mz.djm.via.fe.entity.Criterio;
+import mz.djm.via.fe.entity.IntervencaoType;
 
+/**
+ * 
+ * @author Sergio
+ *
+ */
 public class Criterio01 extends Criterio {
 	
-	private Double intervecaoCost;
+	private IntervencaoType intervecaoCost;
 	private Double transitoValue;
 	private Double icpValue;
 
 
-	public Double getIntervecaoCost() {
+	public IntervencaoType getIntervecaoCost() {
 		return intervecaoCost;
 	}
 
-	public void setIntervecaoCost(Double intervecaoCost) {
+	public void setIntervecaoCost(IntervencaoType intervecaoCost) {
 		this.intervecaoCost = intervecaoCost;
 	}
 

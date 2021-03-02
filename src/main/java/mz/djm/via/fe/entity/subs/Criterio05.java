@@ -1,13 +1,14 @@
 package mz.djm.via.fe.entity.subs;
 
 import mz.djm.via.fe.entity.BaseObject;
+import mz.djm.via.fe.entity.Criterio;
 
 /**
  * 
  * @author Sergio
  *
  */
-public class Criterio05 extends BaseObject {
+public class Criterio05 extends Criterio {
 
 	private Double volumeTransitoValue;
 	

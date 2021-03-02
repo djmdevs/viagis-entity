@@ -10,19 +10,15 @@ import java.awt.Point;
  */
 public class DefeitoType extends BaseObject {
 	
-	private Byte indiceMedicaoValue ;
-	private Byte indiceDedutivoValue;
+	private String unidadeMedicaoValue ; // m, m2, %
+	private Byte indiceDedutivoValue; //varia de 0..10
 
-	private Point pontoDedutivoObject;
+	private Point pontoDedutivoObject; //validar coordenadas x e y
 
-	public Byte getIndiceMedicaoValue() {
-		return indiceMedicaoValue;
+	public String getUnidadeMedicaoValue() {
+		return unidadeMedicaoValue;
 	}
-
-	public void setIndiceMedicaoValue(Byte indiceMedicaoValue) {
-		this.indiceMedicaoValue = indiceMedicaoValue;
-	}
-
+	
 	public Byte getIndiceDedutivoValue() {
 		return indiceDedutivoValue;
 	}

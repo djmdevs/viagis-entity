@@ -4,7 +4,7 @@ import java.io.Serializable;
 
 public abstract class Criterio extends BaseObject{//<T extends Serializable> extends BaseEntity {
 	
-	protected Double value;
+	protected Double value; //varia em funcao dos niveis 0..1
 	
 	protected Double getValue() {
 
