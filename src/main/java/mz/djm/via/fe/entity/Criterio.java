@@ -6,15 +6,19 @@ public abstract class Criterio extends BaseObject{//<T extends Serializable> ext
 	
 	protected Double value; //varia em funcao dos niveis 0..1
 	
-	protected Double getValue() {
-
-		return value;
-	}
-	
+	protected Double priorityValue;
+		
 	protected void setValue(Double value) {
 		this.value = value;
 	}
 	
+	public Double getPriorityValue() {
+		return priorityValue;
+	}
+	
+	protected void setPriorityValue(Double priorityValue) {
+		this.priorityValue = priorityValue;
+	}
 	/**
 	 * Executa  regra de negocio Br003 - transportar para CriterioRuleValidator/ BusinessRule03Validator
 	 * 
