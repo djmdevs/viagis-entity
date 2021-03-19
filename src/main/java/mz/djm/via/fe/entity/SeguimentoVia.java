@@ -68,6 +68,5 @@ public class SeguimentoVia extends BaseObject{
 		this.latitude = latitude;
 	}
 
-		
-	
+
 }

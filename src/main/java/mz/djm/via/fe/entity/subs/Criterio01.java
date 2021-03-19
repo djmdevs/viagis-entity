@@ -10,17 +10,17 @@ import mz.djm.via.fe.entity.IntervencaoType;
  */
 public class Criterio01 extends Criterio {
 	
-	private IntervencaoType intervecaoCost;
+	private Double intervencaoCustoValue;
 	private Double transitoValue;
 	private Double icpValue;
 
 
-	public IntervencaoType getIntervecaoCost() {
-		return intervecaoCost;
+	public Double getIntervecaoCusto() {
+		return intervencaoCustoValue;
 	}
 
-	public void setIntervecaoCost(IntervencaoType intervecaoCost) {
-		this.intervecaoCost = intervecaoCost;
+	public void setIntervecaoCost(Double custoValue) {
+		this.intervencaoCustoValue = custoValue;
 	}
 
 	public Double getTransitoValue() {
@@ -35,7 +35,7 @@ public class Criterio01 extends Criterio {
 		return icpValue;
 	}
 
-	public void setPciValue(Double pciValue) {
+	public void setICPValue(Double pciValue) {
 		this.icpValue = pciValue;
 	}
 	
