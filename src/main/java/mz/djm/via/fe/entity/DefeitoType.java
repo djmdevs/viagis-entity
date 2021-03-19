@@ -31,11 +31,11 @@ public class DefeitoType extends BaseObject {
 		this.indiceDedutivoValue = indiceDedutivoValue;
 	}
 
-	public Point getPontoDedutivo() {
+	private Point getPontoDedutivo() {
 		return pontoDedutivoObject;
 	}
 
-	public void setPontoDedutivo(Point pointObject) {
+	private void setPontoDedutivo(Point pointObject) {
 		this.pontoDedutivoObject = pointObject;
 	}
 	
