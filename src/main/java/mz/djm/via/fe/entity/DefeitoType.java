@@ -39,13 +39,12 @@ public class DefeitoType extends BaseObject {
 		this.pontoDedutivoObject = pointObject;
 	}
 	
-	private Double getLatitude() {
+	public Double getLatitude() {
 		return latitude;
 	}
 	
-	private Double getLongitude() {
+	public Double getLongitude() {
 		return longitude;
 	}
 	
-
 }	
