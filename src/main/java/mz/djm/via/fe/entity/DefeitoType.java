@@ -23,7 +23,8 @@ public class DefeitoType extends BaseObject {
 	
 	public Byte getIndiceDedutivoValue() {
 		//value must be between 0 and 10 only
-		return this.indiceDedutivoValue.equals(Byte.valueOf(""+new Random().ints(0, 10))) ? this.indiceDedutivoValue : null ;
+		return this.indiceDedutivoValue.equals(Byte.valueOf(new String(new Random().ints(0, 10).toString()))) 
+				? this.indiceDedutivoValue : null ;
 	}
 
 	public void setIndiceDedutivoValue(Byte indiceDedutivoValue) {
