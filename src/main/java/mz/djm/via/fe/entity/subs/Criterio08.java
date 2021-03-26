@@ -11,6 +11,11 @@ import mz.djm.via.fe.entity.Criterio;
  */
 public class Criterio08 extends Criterio {
 	
+	public Criterio08(Double value) {
+		super(value);
+		// TODO Auto-generated constructor stub
+	}
+
 	private String aspectoSocialValue;
 	
 	public String getAspectoSocialValue() {

@@ -10,10 +10,20 @@ import mz.djm.via.fe.entity.IntervencaoType;
  */
 public class Criterio01 extends Criterio {
 	
+	public Criterio01(Double value) {
+		super(value);
+		// TODO Auto-generated constructor stub
+	}
+
 	private Double intervencaoCustoValue;
 	private Double transitoValue;
 	private Double icpValue;
+	
 
+	@Override
+	public String getCode() {
+		return "CT01";
+	}
 
 	public Double getIntervecaoCusto() {
 		return intervencaoCustoValue;
@@ -38,8 +48,5 @@ public class Criterio01 extends Criterio {
 	public void setICPValue(Double pciValue) {
 		this.icpValue = pciValue;
 	}
-	
-	
-	
 	
 }

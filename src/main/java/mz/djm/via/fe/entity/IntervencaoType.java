@@ -10,13 +10,23 @@ import javax.swing.text.Segment;
 public class IntervencaoType extends BaseObject {
 
 	private SeguimentoVia via;
-	private Double custoPorMetro2;
+	private Double custoMetro2;
 	private Double custoValue;
 	private Long icpPosIntervencao;
 	private Long icpValue;
+	private Double cO2Metro2;
+	
 
 	public Double getCustoValue() {
 		return custoValue;
+	}
+	
+	public void setcO2Metro2(Double cO2Metro2) {
+		this.cO2Metro2 = cO2Metro2;
+	}
+	
+	public Double getcO2Metro2() {
+		return cO2Metro2;
 	}
 	
 	public void setCustoValue(Double custoValue) {
@@ -46,11 +56,11 @@ public class IntervencaoType extends BaseObject {
 	}
 	
 	public Double getCustoMetro2() {
-		return custoPorMetro2;
+		return custoMetro2;
 	}
 	
 	public void setCustoMetro2(Double custoStandard) {
-		this.custoPorMetro2 = custoStandard;
+		this.custoMetro2 = custoStandard;
 	}
 	
 	public void setIcpValue(Long icpValue) {

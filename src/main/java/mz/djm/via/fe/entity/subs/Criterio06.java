@@ -8,6 +8,11 @@ import mz.djm.via.fe.entity.Criterio;
  */
 public class Criterio06 extends Criterio {
 	
+	public Criterio06(Double value) {
+		super(value);
+		// TODO Auto-generated constructor stub
+	}
+
 	private String cO2Value;
 
 	public String getCO2Value() {
@@ -16,6 +21,11 @@ public class Criterio06 extends Criterio {
 
 	public void setCO2Value(String cO2Value) {
 		this.cO2Value = cO2Value;
+	}
+	
+	@Override
+	public String getCode() {
+		return "CT06";
 	}
 	
 	

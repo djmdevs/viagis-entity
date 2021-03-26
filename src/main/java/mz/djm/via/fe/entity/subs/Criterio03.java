@@ -10,6 +10,11 @@ import mz.djm.via.fe.entity.Criterio;
 
 public class Criterio03 extends Criterio {
 	
+	public Criterio03(Double value) {
+		super(value);
+		// TODO Auto-generated constructor stub
+	}
+
 	private Long numeroAcidente;
 	
 	public Long getNumeroAcidente() {
@@ -18,5 +23,10 @@ public class Criterio03 extends Criterio {
 	
 	public void setNumeroAcidente(Long numeroAcidente) {
 		this.numeroAcidente = numeroAcidente;
+	}
+	
+	@Override
+	public String getCode() {
+		return "CT03";
 	}
 }

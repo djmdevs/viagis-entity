@@ -9,6 +9,11 @@ import mz.djm.via.fe.entity.Criterio;
  */
 public class Criterio0204 extends Criterio {
 	
+	public Criterio0204(Double value) {
+		super(value);
+		// TODO Auto-generated constructor stub
+	}
+
 	private Double pciValue;
 	
 	public Double getPciValue() {

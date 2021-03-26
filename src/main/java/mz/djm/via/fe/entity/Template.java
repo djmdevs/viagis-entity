@@ -20,12 +20,12 @@ public class Template extends BaseObject {
 	}
 
 
-	public SeguimentoVia getSeguimentoObject() {
+	public SeguimentoVia getVia() {
 		return seguimentoObject;
 	}
 
 
-	public void setSeguimentoObject(SeguimentoVia seguimentoObject) {
+	public void setVia(SeguimentoVia seguimentoObject) {
 		this.seguimentoObject = seguimentoObject;
 	}
 
