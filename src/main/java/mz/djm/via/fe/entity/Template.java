@@ -20,10 +20,9 @@ public class Template extends BaseObject {
 	public Template() {
 		
 		//define a constante de defeitos por indice de defeito
-		int i=mapDef.size();
-		for(DefeitoType def: this.mapDef.values()) {
+		for(int i=1;i<=15;i++) {
 			
-			this.mapDef.put(String.valueOf(i--), new DefeitoType());
+			this.mapDef.put("DEF".concat(""+i), new DefeitoType("DEF".concat(""+i)));
 		}
 	}
 
@@ -46,6 +45,10 @@ public class Template extends BaseObject {
 		
 		return this.area;
 	
+	}
+
+	public Map<String, DefeitoType> getMapDef() {
+		return this.mapDef;
 	}
 	
 }

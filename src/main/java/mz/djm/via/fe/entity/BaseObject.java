@@ -9,7 +9,7 @@ public abstract class BaseObject {
 	
 	private Long id;
 	
-	private String code;
+	protected String code;
 	
 	private String description;
 
