@@ -1,5 +1,8 @@
 package mz.djm.via.fe.entity;
 
+import java.util.HashMap;
+import java.util.Map;
+
 /**
  * 
  * @author Sergio
@@ -10,44 +13,39 @@ public class Template extends BaseObject {
 
 	private SeguimentoVia seguimentoObject;
 	
-	private double area;
+	private Double area;
 	
-	private DefeitoType[] defeitos = new DefeitoType[15];
-	
+	private Map<String,DefeitoType> mapDef = new HashMap(15); //max defects
 	
 	public Template() {
-		// TODO Auto-generated constructor stub
+		
+		//define a constante de defeitos por indice de defeito
+		int i=mapDef.size();
+		for(DefeitoType def: this.mapDef.values()) {
+			
+			this.mapDef.put(String.valueOf(i--), new DefeitoType());
+		}
 	}
 
 
-	public SeguimentoVia getVia() {
+	public SeguimentoVia getSegmento() {
+		
 		return seguimentoObject;
 	}
 
 
 	public void setVia(SeguimentoVia seguimentoObject) {
+		
 		this.seguimentoObject = seguimentoObject;
 	}
 
 
-	public double getArea() {
-		return area;
-	}
-
-
-	public void setArea(double area) {
-		this.area = area;
-	}
-
-
-	public DefeitoType[] getDefeitos() {
-		return defeitos;
-	}
-
-
-	public void setDefeitos(DefeitoType[] defeitos) {
-		this.defeitos = defeitos;
-	}
+	public Double getArea() {
+		
+		this.area = (Double) seguimentoObject.getComprimentoValue() * seguimentoObject.getLarguraValue();
+		
+		return this.area;
 	
+	}
 	
 }

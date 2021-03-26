@@ -13,9 +13,10 @@ public class DefeitoType extends BaseObject {
 	
 	private String unidadeMedicaoValue ; // m, m2, %
 	private Byte indiceDedutivoValue; //varia de 0..10
+	private String latitude;
+	private String longitude;
+	
 	private Point pontoDedutivoObject; //validar coordenadas x e y
-	private Double latitude;
-	private Double longitude;
 	
 	public String getUnidadeMedicaoValue() {
 		return unidadeMedicaoValue;
@@ -39,11 +40,11 @@ public class DefeitoType extends BaseObject {
 		this.pontoDedutivoObject = pointObject;
 	}
 	
-	public Double getLatitude() {
+	public String getLatitude() {
 		return latitude;
 	}
 	
-	public Double getLongitude() {
+	public String getLongitude() {
 		return longitude;
 	}
 	
