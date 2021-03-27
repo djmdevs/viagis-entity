@@ -9,12 +9,12 @@ import mz.djm.via.fe.entity.Criterio;
 public class Criterio06 extends Criterio {
 	
 	public Criterio06(Double value) {
-		super(value);
+		
 		// TODO Auto-generated constructor stub
 	}
 	
 	public Criterio06() {
-		this(null);
+		
 	}
 
 	private String cO2Value;

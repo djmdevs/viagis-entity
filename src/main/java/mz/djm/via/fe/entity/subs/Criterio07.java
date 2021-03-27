@@ -12,7 +12,7 @@ import mz.djm.via.fe.entity.Criterio;
 public class Criterio07 extends Criterio {
 	
 	public Criterio07(Double value) {
-		super(value);
+		
 		// TODO Auto-generated constructor stub
 	}
 

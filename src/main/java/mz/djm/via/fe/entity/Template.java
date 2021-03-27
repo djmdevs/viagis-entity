@@ -13,6 +13,7 @@ public class Template extends BaseObject {
 
 	private SeguimentoVia seguimentoObject;
 	
+	//area do defeito
 	private Double area;
 	
 	private Map<String,DefeitoType> mapDef = new HashMap(15); //max defects
@@ -40,8 +41,6 @@ public class Template extends BaseObject {
 
 
 	public Double getArea() {
-		
-		this.area = (Double) seguimentoObject.getComprimentoValue() * seguimentoObject.getLarguraValue();
 		
 		return this.area;
 	

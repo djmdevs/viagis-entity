@@ -12,9 +12,6 @@ import mz.djm.via.fe.entity.Criterio;
 public class Criterio09 extends Criterio {
 	
 	public Criterio09(Double value) {
-
-		super(value);
-
 	}
 
 	private String aspectoPoliticoValue;

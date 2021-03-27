@@ -10,20 +10,19 @@ import mz.djm.via.fe.entity.IntervencaoType;
  */
 public class Criterio01 extends Criterio {
 	
-	public Criterio01(Double value) {
-		super(value);
-		// TODO Auto-generated constructor stub
+	
+	public Criterio01(Double transitoValue) {
+		
+		this.transitoValue = transitoValue;
 	}
 	
-	public Criterio01() {
-		this(null);
-	}
-
+	public Criterio01() {}	
+	
+	
 	private Double intervencaoCustoValue;
 	private Double transitoValue;
-	private Double icpValue;
-	
-
+	private Long icpValue;
+		
 	@Override
 	public String getCode() {
 		return "CT01";
@@ -45,12 +44,13 @@ public class Criterio01 extends Criterio {
 		this.transitoValue = transitoValue;
 	}
 
-	public Double getICPValue() {
+	public Long getICPValue() {
 		return icpValue;
 	}
 
-	public void setICPValue(Double pciValue) {
-		this.icpValue = pciValue;
+	public void setICPValue(Long icpValue) {
+		this.icpValue = icpValue;
 	}
+	
 	
 }

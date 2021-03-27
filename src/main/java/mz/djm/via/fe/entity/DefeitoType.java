@@ -31,6 +31,11 @@ public class DefeitoType extends BaseObject {
 	
 	public Integer getIndiceDedutivoValue() {
 		//value must be between 0 and 10 only
+		return this.indiceDedutivoValue;
+	}
+	
+	public Integer getRandomIndiceDedutivoValue() {
+		//value must be between 0 and 10 only
 		return new Random().nextInt(10);
 	}
 

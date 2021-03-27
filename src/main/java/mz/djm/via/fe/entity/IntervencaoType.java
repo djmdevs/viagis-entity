@@ -18,6 +18,7 @@ public class IntervencaoType extends BaseObject {
 	
 
 	public Double getCustoValue() {
+		
 		return custoValue;
 	}
 	

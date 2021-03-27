@@ -12,6 +12,8 @@ public class SeguimentoVia extends BaseObject{
 		
 	private IntervencaoType intervencaoTypeObject;
 	
+	private Double transitoValue;
+	
 	//nome da via sera igual a descricao existente na entidade generica
 	//private String nome
 	//private Point pointObject; //coordenadas x e y
@@ -66,6 +68,14 @@ public class SeguimentoVia extends BaseObject{
 
 	public void setLatitude(String latitude) {
 		this.latitude = latitude;
+	}
+	
+	public void setTransitoValue(Double transitoValue) {
+		this.transitoValue = transitoValue;
+	}
+	
+	public Double getVolumeTransitoValue() {
+		return transitoValue;
 	}
 
 

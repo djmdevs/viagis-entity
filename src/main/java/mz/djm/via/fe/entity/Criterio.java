@@ -8,8 +8,9 @@ public abstract class Criterio extends BaseObject{//<T extends Serializable> ext
 	
 	protected Double priorityValue;
 	
-	public Criterio(Double value) {
-		this.value=value;
+	
+	public Criterio() {
+	
 	}
 		
 	public Double getPriorityValue() {
@@ -22,6 +23,10 @@ public abstract class Criterio extends BaseObject{//<T extends Serializable> ext
 	
 	public Double getValue() {
 		return value;
+	}
+	
+	public void setValue(Double value) {
+		this.value = value;
 	}
 	
 	/**
