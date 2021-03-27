@@ -8,7 +8,7 @@ public class SeguimentoVia extends BaseObject{
 	
 	private Double comprimentoValue;
 	
-	private Double icpValue;
+	private Long icpValue;
 		
 	private IntervencaoType intervencaoTypeObject;
 	
@@ -36,11 +36,11 @@ public class SeguimentoVia extends BaseObject{
 		this.comprimentoValue = comprimentoValue;
 	}
 
-	public Double getIcpValue() {
+	public Long getIcpValue() {
 		return icpValue;
 	}
 
-	public void setIcpValue(Double icpValue) {
+	public void setIcpValue(Long icpValue) {
 		this.icpValue = icpValue;
 	}
 

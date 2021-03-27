@@ -14,6 +14,10 @@ public class Criterio01 extends Criterio {
 		super(value);
 		// TODO Auto-generated constructor stub
 	}
+	
+	public Criterio01() {
+		this(null);
+	}
 
 	private Double intervencaoCustoValue;
 	private Double transitoValue;

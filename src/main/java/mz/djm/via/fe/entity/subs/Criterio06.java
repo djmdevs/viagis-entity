@@ -12,6 +12,10 @@ public class Criterio06 extends Criterio {
 		super(value);
 		// TODO Auto-generated constructor stub
 	}
+	
+	public Criterio06() {
+		this(null);
+	}
 
 	private String cO2Value;
 
